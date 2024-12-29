@@ -96,6 +96,7 @@ You can follow the prompts to create, view, and delete repositories or files. Th
 **TestControl & Tester** Automates test scenarios and verifies output.
 
 
-https://youtu.be/ApyV-565dYc
+## Video Demo
 
-<iframe width="560" height="315" src="[https://youtu.be/ApyV-565dYc](https://www.youtube.com/watch?v=ApyV-565dYc)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/ApyV-565dYc/hqdefault.jpg)](https://youtu.be/ApyV-565dYc)
+
