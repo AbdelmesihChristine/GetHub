@@ -9,7 +9,14 @@ It allows you to:
 
 ---
 
-## 2. Features and Learning Outcomes
+## 2. Video Demo
+*(Tip: Right-click and choose "Open Link in New Tab")*
+
+[![Watch the video](https://img.youtube.com/vi/ApyV-565dYc/hqdefault.jpg)](https://youtu.be/ApyV-565dYc)
+
+---
+
+## 3. Features and Learning Outcomes
 - **Doubly Linked Lists**: Used for storing files and repositories.
 - **Deep Copy**: Custom copy constructors ensure proper memory management.
 - **Encapsulation and Const-Correctness**: Promotes robust class design.
@@ -18,28 +25,28 @@ It allows you to:
 
 ---
 
-## 3. Project Structure
+## 4. Project Structure
 The project is organized as follows:
 
-├── main.cc           // Entry point for the interactive GetHub program
-├── test.cc           // Entry point for the automated tests
-├── Makefile          // Build instructions
-├── Date.*            // Date class (stores & compares dates)
-├── File.*            // File class (manages file name, content, date)
-├── FileList.*        // Doubly linked list of File pointers
-├── Repo.*            // Represents a single repository
-├── RepoList.*        // Doubly linked list of Repo pointers
-├── GetHub.*          // Manages multiple Repo objects
-├── Client.*          // Client that clones (deep copies) a Repo from GetHub
-├── Control.*         // Orchestrates interactions between View, GetHub, and Client
-├── TestControl.*     // Orchestrates automated tests (uses Tester)
-├── Tester.*          // Captures and analyzes output for test verification
-├── View.*            // Boundary class for console I/O menus
+├── main.cc           // Entry point for the interactive GetHub program  
+├── test.cc           // Entry point for the automated tests  
+├── Makefile          // Build instructions  
+├── Date.*            // Date class (stores & compares dates)  
+├── File.*            // File class (manages file name, content, date)  
+├── FileList.*        // Doubly linked list of File pointers  
+├── Repo.*            // Represents a single repository  
+├── RepoList.*        // Doubly linked list of Repo pointers  
+├── GetHub.*          // Manages multiple Repo objects  
+├── Client.*          // Client that clones (deep copies) a Repo from GetHub  
+├── Control.*         // Orchestrates interactions between View, GetHub, and Client  
+├── TestControl.*     // Orchestrates automated tests (uses Tester)  
+├── Tester.*          // Captures and analyzes output for test verification  
+├── View.*            // Boundary class for console I/O menus  
 └── README.md         // This file
 
 ---
 
-## 4. Core Concepts Implemented
+## 5. Core Concepts Implemented
 1. **Doubly Linked Lists**  
    Both `FileList` and `RepoList` use a node structure with `prev` and `next` pointers.
 2. **Deep Copy and Copy Constructors**  
@@ -51,7 +58,7 @@ The project is organized as follows:
 
 ---
 
-## 5. Quick Start
+## 6. Quick Start
 1. **Clone or download** this repository.  
 2. **Build** the project using the provided Makefile:
    make
@@ -68,7 +75,7 @@ Run the automated tests:
 
 ---
 
-## 6. Usage Example
+## 7. Usage Example
 After running ./getHub, you will be presented with a menu of options:
 
 1. Print all repos
@@ -83,7 +90,7 @@ You can follow the prompts to create, view, and delete repositories or files. Th
 
 ---
 
-## 7. Classes Overview
+## 8. Classes Overview
 **Date** Manages date fields (year, month, day), with lessThan/equals.
 **File** Stores a file’s name, content, and date.
 **FileList** Doubly linked list of File*. Handles adding, removing, and retrieving files.
@@ -96,7 +103,4 @@ You can follow the prompts to create, view, and delete repositories or files. Th
 **TestControl & Tester** Automates test scenarios and verifies output.
 
 
-## Video Demo
-
-[![Watch the video](https://img.youtube.com/vi/ApyV-565dYc/hqdefault.jpg)](https://youtu.be/ApyV-565dYc)
 
