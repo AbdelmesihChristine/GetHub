@@ -96,16 +96,17 @@ You can follow the prompts to create, view, and delete repositories or files. Th
 ---
 
 ## 8. Classes Overview
-Date: Manages date fields (year, month, day), with lessThan/equals.
-File: Stores a file’s name, content, and Date.
-FileList: Doubly linked list of File*. Handles adding, removing, getting files.
-Repo: Holds a title, owner, and a FileList*. Includes a deep copy constructor.
-RepoList: Doubly linked list of Repo*. Adds, gets, removes repos.
-GetHub: Manages Repo objects via RepoList, offering higher-level functions (add/delete repo, add/delete file, print).
-Client: Maintains a single Repo* that can be a deep copy of a remote repo from GetHub.
-Control: Provides the main interactive logic, calling upon GetHub and Client.
-View: Displays menus and gathers user input.
-TestControl & Tester: Automates various test scenarios, capturing output to check correctness.
+
+**Date** Manages date fields (year, month, day), with lessThan/equals.
+**File** Stores a file’s name, content, and date.
+**FileList** Doubly linked list of File*. Handles adding, removing, and retrieving files.
+**Repo** Holds a title, owner, and a FileList*. Includes a deep copy constructor.
+**RepoList** Doubly linked list of Repo*. Adds, gets, and removes repos.
+**GetHub** Manages Repo objects via RepoList, offering methods to add/delete repos and files.
+**Client** Maintains a single Repo* that can be a deep copy of a Repo from GetHub.
+**Control** Coordinates interactions between the user (via View), GetHub, and Client.
+**View** Displays menus and gathers user input.
+**TestControl & Tester** Automates test scenarios and verifies output.
 
 
 
