@@ -11,7 +11,7 @@ It allows you to:
 ---
 
 ## 2. Video Demo
-*(Tip: Right-click and choose "Open Link in New Tab")*
+*(Right-click → “Open Link in New Tab” for best viewing.)* 
 
 [![Watch the video](https://img.youtube.com/vi/ApyV-565dYc/hqdefault.jpg)](https://youtu.be/ApyV-565dYc)
 
