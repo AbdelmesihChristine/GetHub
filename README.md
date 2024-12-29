@@ -2,6 +2,7 @@
 
 ## 1. Introduction
 **GetHub** is a C++ application that models a simplified repository management system. It demonstrates core OOP principles such as doubly linked lists, deep copying, and encapsulation, while also showcasing a client component that clones repositories independently. The project emphasizes memory management through copy constructors and destructors, ensuring no leaks or shallow copies.
+
 It allows you to:
 - Create and manage repositories.
 - Add or remove files within repositories.
@@ -69,9 +70,11 @@ This produces two executables:
 
 Run the interactive application:
 ./getHub
+valgrind ./getHub
 
 Run the automated tests:
 ./getHubtest
+valgrind ./getHubtest
 
 ---
 
